@@ -1,0 +1,7 @@
+{
+  "name": "brailowparker.com",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
