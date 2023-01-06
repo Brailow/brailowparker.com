@@ -2,7 +2,7 @@
   "name": "brailowparker.com",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://brailow.github.io/brailowparker.com",
+  "homepage": "http://brailowparker.com/",
   "dependencies": {
     "@capacitor/app": "4.1.1",
     "@capacitor/core": "4.6.1",
