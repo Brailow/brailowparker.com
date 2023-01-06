@@ -9,7 +9,7 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   if (name === "About") {
     return (
       <div className="container">
-        <strong>YOU REACHED ABOUT IN IF</strong>
+        <strong>{name}</strong>
         <p>Explore</p>
       </div>
     );
@@ -17,7 +17,7 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   if (name === "Experience") {
     return (
       <div className="container">
-        <strong>YOU REACHED EXPERIENCE IN IF</strong>
+        <strong>{name}</strong>
         <p>Explore</p>
       </div>
     );
@@ -25,7 +25,7 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   if (name === "Portfolio") {
     return (
       <div className="container">
-        <strong>YOU REACHED PORTFOLIO IN IF</strong>
+        <strong>{name}</strong>
         <p>Explore</p>
       </div>
     );
@@ -33,7 +33,7 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   if (name === "Art Gallery") {
     return (
       <div className="container">
-        <strong>YOU REACHED ART GALLERY IN IF</strong>
+        <strong>{name}</strong>
         <p>Explore</p>
       </div>
     );
