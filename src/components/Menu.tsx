@@ -8,6 +8,8 @@ import {
   IonMenu,
   IonMenuToggle,
   IonNote,
+  IonAvatar,
+  IonChip
 } from '@ionic/react';
 
 import { useLocation } from 'react-router-dom';
@@ -54,7 +56,7 @@ const appPages: AppPage[] = [
   }
 ];
 
-const labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+const labels = ['About', 'Experience', 'Portfolio', 'Art Gallery', 'Contact' ];
 
 const Menu: React.FC = () => {
   const location = useLocation();
@@ -63,7 +65,12 @@ const Menu: React.FC = () => {
     <IonMenu contentId="main" type="overlay">
       <IonContent>
         <IonList id="inbox-list">
-          <IonListHeader>Parker Brailow</IonListHeader>
+          <IonItem className="avatar">
+            <IonListHeader>Parker Brailow</IonListHeader>
+              <IonAvatar slot="end">
+                <img alt="Parker Brailow" src="/assets/linkedinPic.jpeg" />
+              </IonAvatar>
+          </IonItem>
           <IonNote></IonNote>
           {appPages.map((appPage, index) => {
             return (
