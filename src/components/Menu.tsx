@@ -11,7 +11,7 @@ import {
 } from '@ionic/react';
 
 import { useLocation } from 'react-router-dom';
-import { archiveOutline, archiveSharp, bookmarkOutline, heartOutline, heartSharp, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, trashOutline, trashSharp, warningOutline, warningSharp } from 'ionicons/icons';
+import { archiveOutline, archiveSharp, bookmarkOutline, heartOutline, heartSharp, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, trashOutline, trashSharp, warningOutline, warningSharp, brush, brushSharp, accessibilitySharp, accessibility, earth, earthSharp, folderOpen, folderOpenSharp } from 'ionicons/icons';
 import './Menu.css';
 
 interface AppPage {
@@ -25,32 +25,32 @@ const appPages: AppPage[] = [
   {
     title: 'About',
     url: '/page/About',
-    iosIcon: mailOutline,
-    mdIcon: mailSharp
+    iosIcon: accessibility,
+    mdIcon: accessibilitySharp
   },
   {
     title: 'Experience',
     url: '/page/Experience',
-    iosIcon: paperPlaneOutline,
-    mdIcon: paperPlaneSharp
+    iosIcon: earth,
+    mdIcon: earthSharp
   },
   {
     title: 'Portfolio',
     url: '/page/Portfolio',
-    iosIcon: heartOutline,
-    mdIcon: heartSharp
+    iosIcon: folderOpen,
+    mdIcon: folderOpenSharp
   },
   {
     title: 'Art Gallery',
     url: '/page/Art Gallery',
-    iosIcon: archiveOutline,
-    mdIcon: archiveSharp
+    iosIcon: brush,
+    mdIcon: brushSharp
   },
   {
     title: 'Contact',
     url: '/page/Contact',
-    iosIcon: archiveOutline,
-    mdIcon: archiveSharp
+    iosIcon: mailOutline,
+    mdIcon: mailSharp
   }
 ];
 
