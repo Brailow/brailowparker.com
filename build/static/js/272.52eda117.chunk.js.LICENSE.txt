@@ -1,3 +1,3 @@
 /*!
- * (C) Ionic http://ionicframework.com - MIT License
+ * (C) Ionic https://ionicframework.com - MIT License
  */

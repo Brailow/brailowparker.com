@@ -1,5 +1,5 @@
 /*!
- * (C) Ionic http://ionicframework.com - MIT License
+ * (C) Ionic https://ionicframework.com - MIT License
  */
 
 /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
