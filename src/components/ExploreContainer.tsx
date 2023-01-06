@@ -44,7 +44,10 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
         <strong>Email</strong>
         <p className="detail">brailowparker@berkeley.edu</p>
         <strong>Phone</strong>
-        <p>(801) 673-5570</p>
+        <p className="detail">(801) 673-5570</p>
+        <strong>Linkedin</strong>
+        <br></br>
+        <a href="https://www.linkedin.com/in/parkerbrailow">https://www.linkedin.com/in/parkerbrailow</a>
       </div>
     );
   }
