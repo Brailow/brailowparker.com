@@ -1,4 +1,5 @@
 import './ExploreContainer.css';
+import { IonItem, IonLabel } from '@ionic/react';
 
 interface ContainerProps {
   name: string;
@@ -40,8 +41,10 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   if (name === "Contact") {
     return (
       <div className="container">
-        <strong>YOU REACHED CONTACT IN IF</strong>
-        <p>Explore</p>
+        <strong>Email</strong>
+        <p className="detail">brailowparker@berkeley.edu</p>
+        <strong>Phone</strong>
+        <p>(801) 673-5570</p>
       </div>
     );
   }
