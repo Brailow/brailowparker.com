@@ -26,3 +26,27 @@
 .detail {
   padding-bottom: 20px;
 }
+
+.about-text {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #ffffff !important;
+}
+
+.about-text-small {
+  text-align: left;
+  font-size: 12px !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #ffffff !important;
+}
+
+.container.about-container {
+  top: 42%;
+}
+
+.about-text-subtitle {
+  font-size: 16px !important;
+  font-weight: bold;
+}

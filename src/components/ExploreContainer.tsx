@@ -8,9 +8,43 @@ interface ContainerProps {
 const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   if (name === "About") {
     return (
-      <div className="container">
-        <strong>{name}</strong>
-        <p>Explore</p>
+      <div className="container about-container">
+        <p className="about-text about-text-subtitle">
+          What I'm Doing Now:
+        </p>
+        <p className="about-text">
+          I'm a senior graduating from UC Berkeley with a Bachelor's degree in both Cognitive Science and Data Science in May 2023.
+          I am very interested in the future of artificial intelligence and the role it will play in the course of history; hence, my choice of majoring in both Cognitive Science and Data Science.
+        </p>
+        <br></br>
+        <p className="about-text-small">
+          (Further reasoning for my major choices: I majored in Cognitive Science since it is the multidisciplinary study of the mind, and I believe (potentially uncontroversially) that everything of interest is found in the mind--regardless of whether the substrate is biological or silicon.
+          Furthermore, I chose Data Science because I want to understand the silicon side of the mind more, especially considering how wide of an impact it already has and how much exponentially wider that impact will be.
+          Additionally, I believe that the best way to build up the human corpus of knowledge is when we are all playing the same game to gather the knowledge. The scientific method provides a good set of rules surrounding the game to gather the knowledge, in my estimation.
+          Gathering and analyzing the data from empirics, and updating our hypotheses is the essence of Data Science; hence, my choice.)
+        </p>
+        <br></br>
+        <p className="about-text about-text-subtitle">
+          Where I'm From:
+        </p>
+        <p className="about-text">
+          I was born and raised in Salt Lake County, Utah. I attended Corner Canyon High School where I participated in Speech and Debate.
+        </p>
+        <br></br>
+        <p className="about-text about-text-subtitle">
+          Hobbies:
+        </p>
+        <p className="about-text">
+          I enjoy weightlifting, trail running, concerts, trying new foods/experiences, building digital and physical projects, and the occassional video game with friends from home.
+        </p>
+        <br></br>
+        <p className="about-text about-text-subtitle">
+          Intellectual Interests:
+        </p>
+        <p className="about-text">
+          I love (regardless of how pretentious it appears) armchair-theorizing about the future, psychology, and philosophy. I enjoy reading and discussing new ideas. I would say a majority of my ideas about the nature of ~stuff~ come from Descartes, Leibniz, Hume, Kant, Hegel, Neitzsche, and Jung.
+          A large part of my interest in AI likely comes from my viewing of talks from Nick Bostrom, Stuart Russell, Demis Hassabis, Ray Kurzweil, and Elon Musk in high school. I zipped through The Singularity is Near during a family vacation.
+        </p>
       </div>
     );
   }
