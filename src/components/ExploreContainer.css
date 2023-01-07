@@ -42,15 +42,29 @@
   color: #ffffff !important;
 }
 
-.container.about-container {
-  top: 40%;
+
+@media screen and (max-width: 480px) {
+  .container.about-container {
+    margin-top: 110%;
+  }
 }
 
-.ios.container.about-container {
-  top: 200%;
+@media screen and (max-width: 1360px) and (min-width: 641px){
+  .container.about-container {
+    top: 50%;
+  }
 }
-.md.container.about-container {
-  top: 200%;
+
+@media screen and (max-width: 640px) and (min-width: 481px) {
+  .container.about-container {
+    top: 55%;
+  }
+}
+
+@media screen and (max-height: 100px) {
+  .container.about-container {
+    top: 100%;
+  }
 }
 
 .about-text-subtitle {
