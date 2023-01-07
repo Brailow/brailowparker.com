@@ -43,14 +43,14 @@
 }
 
 .container.about-container {
-  top: 42%;
+  top: 40%;
 }
 
 .ios.container.about-container {
-  top: 100%;
+  top: 200%;
 }
 .md.container.about-container {
-  top: 100%;
+  top: 200%;
 }
 
 .about-text-subtitle {
