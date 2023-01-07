@@ -46,6 +46,13 @@
   top: 42%;
 }
 
+.ios.container.about-container {
+  top: 69%;
+}
+.md.container.about-container {
+  top: 69%;
+}
+
 .about-text-subtitle {
   font-size: 16px !important;
   font-weight: bold;
