@@ -1,5 +1,5 @@
 import './ExploreContainer.css';
-import { IonItem, IonLabel } from '@ionic/react';
+import { IonList, IonItem, IonLabel } from '@ionic/react';
 
 interface ContainerProps {
   name: string;
@@ -50,9 +50,55 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   }
   if (name === "Experience") {
     return (
-      <div className="container">
-        <strong>{name}</strong>
-        <p>Explore</p>
+      <div className="container about-container">
+        <IonList>
+          <IonItem>
+            <IonLabel className="item">
+              Education:
+            </IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel className="subitem">
+              UC Berkeley '23
+            </IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel className="subsubitem">
+              BA Cognitive Science
+            </IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel className="subsubsubitem">
+              GPA: 3.9
+            </IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel className="subsubitem">
+              BA Data Science
+            </IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel className="subsubsubitem">
+              GPA: 3.7
+            </IonLabel>
+          </IonItem>
+        </IonList>
+        <IonItem>
+            <IonLabel className="subitem">
+              Berkeley Haas School of Business
+            </IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel className="subsubitem">
+              Certificate in Business for Arts, Sciences, and Engineering
+            </IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel className="subsubsubitem">
+              GPA: 4.0
+            </IonLabel>
+          </IonItem>
+        <br></br>
       </div>
     );
   }
