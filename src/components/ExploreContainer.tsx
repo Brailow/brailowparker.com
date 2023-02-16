@@ -42,7 +42,7 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   }
   if (name === "Experience") {
     return (
-      <div className="container about-container">
+      <div className="container experience-container">
         <strong>Education</strong>
         <p className="about-text">UC Berkeley '23</p>
         <p className="about-text tab">BA Cognitive Science</p>

@@ -67,6 +67,30 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .container.experience-container {
+    margin-top: 60%;
+  }
+}
+
+@media screen and (max-width: 640px) and (min-width: 481px) {
+  .container.experience-container {
+    top: 55%;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .container.experience-container {
+    top: 52%;
+  }
+}
+
+@media screen and (max-height: 100px) {
+  .container.experience-container {
+    top: 100%;
+  }
+}
+
 .about-text-subtitle {
   font-size: 16px !important;
   font-weight: bold;
