@@ -55,6 +55,12 @@
   }
 }
 
+@media screen and (min-width: 641px) {
+  .container.about-container {
+    top: 52%;
+  }
+}
+
 @media screen and (max-height: 100px) {
   .container.about-container {
     top: 100%;

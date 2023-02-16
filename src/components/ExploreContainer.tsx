@@ -68,11 +68,6 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
             </IonLabel>
           </IonItem>
           <IonItem>
-            <IonLabel className="subsubsubitem">
-              GPA: 3.9
-            </IonLabel>
-          </IonItem>
-          <IonItem>
             <IonLabel className="subsubitem">
               BA Data Science
             </IonLabel>
@@ -82,8 +77,12 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
               GPA: 3.7
             </IonLabel>
           </IonItem>
-        </IonList>
-        <IonItem>
+          <IonItem>
+            <IonLabel className="subsubsubitem">
+              Honors: Dean's List, Honor's List
+            </IonLabel>
+          </IonItem>
+          <IonItem>
             <IonLabel className="subitem">
               Berkeley Haas School of Business
             </IonLabel>
@@ -98,6 +97,51 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
               GPA: 4.0
             </IonLabel>
           </IonItem>
+          <IonItem>
+            <IonLabel className="item">
+              Work:
+            </IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel className="subitem">
+              CEO/Frontend Developer: My New Token, LLC<br />
+              (November 2020-)
+            </IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel className="subsubitem">
+              I designed and built the frontend for a social media platform.<br />
+              Implemented via custom, Ionic-extending, web components using StencilJS<br />
+              and combined them with ReactJS.
+            </IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel className="subitem">
+              ML Engineer: [gauge] Consulting <br />
+              (September, October 2019)
+            </IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel className="subsubitem">
+            Contracted to implement K-Means algorithm <br />
+            in Python for big data visualizations <br />
+            and analytics at companies like Airbnb.
+            </IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel className="subitem">
+              Behavioral Economics Research Assistant: Haas School of Business<br />(February 2019-May 2020)
+            </IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel className="subsubitem">
+              Brainstormed and analyzed novel experiments for<br />
+              biases via creation of Qualtrics (e.g. A/B tests) and<br />
+              in-person experiments under Professor Ellen Evers. Analyzed<br />
+              results with Python and R.
+            </IonLabel>
+          </IonItem>
+        </IonList>
         <br></br>
       </div>
     );
