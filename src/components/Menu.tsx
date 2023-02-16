@@ -37,26 +37,26 @@ const appPages: AppPage[] = [
     mdIcon: earthSharp
   },
   {
-    title: 'Portfolio',
-    url: '/page/Portfolio',
-    iosIcon: folderOpen,
-    mdIcon: folderOpenSharp
-  },
-  {
-    title: 'Art Gallery',
-    url: '/page/Art Gallery',
-    iosIcon: brush,
-    mdIcon: brushSharp
-  },
-  {
     title: 'Contact',
     url: '/page/Contact',
     iosIcon: mailOutline,
     mdIcon: mailSharp
   }
 ];
+//  {
+//  title: 'Portfolio',
+//  url: '/page/Portfolio',
+//  iosIcon: folderOpen,
+//  mdIcon: folderOpenSharp
+//},
+//{
+//  title: 'Art Gallery',
+//  url: '/page/Art Gallery',
+//  iosIcon: brush,
+//  mdIcon: brushSharp
+//},
 
-const labels = ['About', 'Experience', 'Portfolio', 'Art Gallery', 'Contact' ];
+const labels = ['About', 'Experience', 'Contact' ]; //'Portfolio', 'Art Gallery', 
 
 const Menu: React.FC = () => {
   const location = useLocation();

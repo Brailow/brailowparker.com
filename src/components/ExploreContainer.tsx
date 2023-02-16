@@ -43,7 +43,7 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
         </p>
         <p className="about-text">
           I love (regardless of how pretentious it appears) armchair-theorizing about the future, psychology, and philosophy. I enjoy reading and discussing new ideas. I would say a majority of my ideas about the nature of ~stuff~ come from Descartes, Leibniz, Hume, Kant, Hegel, Neitzsche, and Jung.
-          A large part of my interest in AI likely comes from my viewing of talks from Nick Bostrom, Stuart Russell, Demis Hassabis, Ray Kurzweil, and Elon Musk in high school. I zipped through The Singularity is Near during a family vacation.
+          A large part of my interest in AI likely comes from listening to talks in high school from Nick Bostrom, Stuart Russell, Demis Hassabis, Elon Musk, and Ray Kurzweil: I zipped through The Singularity is Near during a family vacation.
         </p>
       </div>
     );
