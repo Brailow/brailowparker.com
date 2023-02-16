@@ -43,98 +43,32 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   if (name === "Experience") {
     return (
       <div className="container about-container">
-        <IonList>
-          <IonItem>
-            <IonLabel className="item">
-              Education:
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel className="subitem">
-              UC Berkeley '23
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel className="subsubitem">
-              BA Cognitive Science
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel className="subsubitem">
-              BA Data Science
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel className="subsubsubitem">
-              GPA: 3.7
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel className="subsubsubitem">
-              Honors: Dean's List, Honor's List
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel className="subitem">
-              Berkeley Haas School of Business
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel className="subsubitem">
-              Certificate in Business for Arts, Sciences, and Engineering
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel className="subsubsubitem">
-              GPA: 4.0
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel className="item">
-              Work:
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel className="subitem">
-              CEO/Frontend Developer: My New Token, LLC<br />
-              (November 2020-)
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel className="subsubitem">
-              I designed and built the frontend for a social media platform.<br />
-              Implemented via custom, Ionic-extending, web components using StencilJS<br />
-              and combined them with ReactJS.
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel className="subitem">
-              ML Engineer: [gauge] Consulting <br />
-              (September, October 2019)
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel className="subsubitem">
-            Contracted to implement K-Means algorithm <br />
-            in Python for big data visualizations <br />
-            and analytics at companies like Airbnb.
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel className="subitem">
-              Behavioral Economics Research Assistant: Haas School of Business<br />(February 2019-May 2020)
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel className="subsubitem">
-              Brainstormed and analyzed novel experiments for<br />
+        <strong>Education</strong>
+        <p className="about-text">UC Berkeley '23</p>
+        <p className="about-text tab">BA Cognitive Science</p>
+        <p className="about-text tab">BA Data Science</p>
+        <p className="about-text tabtab">GPA: 3.7</p>
+        <p className="about-text tabtab">Honors: Dean's List, Honor's List</p>
+        <p className="about-text">Berkeley Haas School of Business '19</p>
+        <p className="about-text tab">Certificate in Business for Arts, Sciences, and Engineering</p>
+        <p className="about-text tabtab">GPA: 4.0</p>
+        <strong>Work</strong>
+        <p className="about-text">CEO/Frontend Developer: My New Token, LLC</p>
+        <p className="about-text">(November 2020-)</p>
+        <p className="about-text tab">I designed and built the frontend for a social media platform.
+              Implemented via custom, Ionic-extending, web components using StencilJS
+              and combined them with ReactJS.</p>
+        <p className="about-text">ML Engineer: [gauge] Consulting </p>
+        <p className="about-text">(September, October 2019)</p>
+        <p className="about-text tab">Contracted to implement K-Means algorithm 
+            in Python for big data visualizations 
+            and analytics at companies like Airbnb.</p>
+        <p className="about-text">Behavioral Economics Research Assistant: Haas School of Business</p>
+        <p className="about-text">(February 2019-May 2020)</p>
+        <p className="about-text tab">Brainstormed and analyzed novel experiments for<br />
               biases via creation of Qualtrics (e.g. A/B tests) and<br />
               in-person experiments under Professor Ellen Evers. Analyzed<br />
-              results with Python and R.
-            </IonLabel>
-          </IonItem>
-        </IonList>
-        <br></br>
+              results with Python and R.</p>
       </div>
     );
   }
