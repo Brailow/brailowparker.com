@@ -65,9 +65,9 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
             and analytics at companies like Airbnb.</p>
         <p className="about-text">Behavioral Economics Research Assistant: Haas School of Business</p>
         <p className="about-text">(February 2019-May 2020)</p>
-        <p className="about-text tab">Brainstormed and analyzed novel experiments for<br />
-              biases via creation of Qualtrics (e.g. A/B tests) and<br />
-              in-person experiments under Professor Ellen Evers. Analyzed<br />
+        <p className="about-text tab">Brainstormed and analyzed novel experiments for
+              biases via creation of Qualtrics (e.g. A/B tests) and
+              in-person experiments under Professor Ellen Evers. Analyzed
               results with Python and R.</p>
       </div>
     );
