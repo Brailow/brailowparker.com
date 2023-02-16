@@ -9,9 +9,7 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   if (name === "About") {
     return (
       <div className="container about-container">
-        <p className="about-text about-text-subtitle">
-          What I'm Doing Now:
-        </p>
+        <strong>What I'm Doing Now</strong>
         <p className="about-text">
           I'm a senior graduating from UC Berkeley with a Bachelor's degree in both Cognitive Science and Data Science in May 2023.
           I am very interested in the future of artificial intelligence and the role it will play in the course of history; hence, my choice of majoring in both Cognitive Science and Data Science.
@@ -24,23 +22,17 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
           Gathering and analyzing the data from empirics, and updating our hypotheses is the essence of Data Science; hence, my choice.)
         </p>
         <br></br>
-        <p className="about-text about-text-subtitle">
-          Where I'm From:
-        </p>
+        <strong>Where I'm From</strong>
         <p className="about-text">
           I was born and raised in Salt Lake County, Utah. I attended Corner Canyon High School where I participated in Speech and Debate.
         </p>
         <br></br>
-        <p className="about-text about-text-subtitle">
-          Hobbies:
-        </p>
+        <strong>Hobbies</strong>
         <p className="about-text">
           I enjoy weightlifting, trail running, concerts, trying new foods/experiences, building digital and physical projects, and the occassional video game with friends from home.
         </p>
         <br></br>
-        <p className="about-text about-text-subtitle">
-          Intellectual Interests:
-        </p>
+        <strong>Intellectual Interests</strong>
         <p className="about-text">
           I love (regardless of how pretentious it appears) armchair-theorizing about the future, psychology, and philosophy. I enjoy reading and discussing new ideas. I would say a majority of my ideas about the nature of ~stuff~ come from Descartes, Leibniz, Hume, Kant, Hegel, Neitzsche, and Jung.
           A large part of my interest in AI likely comes from listening to talks in high school from Nick Bostrom, Stuart Russell, Demis Hassabis, Elon Musk, and Ray Kurzweil: I zipped through The Singularity is Near during a family vacation.

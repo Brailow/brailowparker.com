@@ -15,7 +15,7 @@
 .container p {
   font-size: 16px;
   line-height: 22px;
-  color: #8c8c8c;
+  color: #f0f0f0;
   margin: 0;
 }
 
@@ -31,7 +31,7 @@
   text-align: left;
   padding-left: 15px;
   padding-right: 15px;
-  color: #ffffff !important;
+  /*color: #ffffff !important;*/
 }
 
 .about-text-small {
@@ -39,7 +39,7 @@
   font-size: 12px !important;
   padding-left: 15px;
   padding-right: 15px;
-  color: #ffffff !important;
+  /*color: #ffffff !important;*/
 }
 
 
